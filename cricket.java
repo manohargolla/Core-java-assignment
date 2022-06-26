@@ -6,11 +6,9 @@ class cricket {
     return (int)(Math.random()*(300-1+1)+1);
   }
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);     
-        System.out.print("Enter first player");  
-        int firstplayer= sc.nextInt();  
-        System.out.print("Enter second player");  
-        int secondplayer= sc.nextInt(); 
+        
+        int firstplayer= "Manu";  
+        int secondplayer= "Arun" 
         System.out.println("player :"+firstplayer);
         int score1=0;
         int score2=0;
