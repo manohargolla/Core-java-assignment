@@ -25,7 +25,7 @@ class cricket {
       System.out.println(secondplayer+" Needs "+(score1+1)+" In "+ count1+" Rounds To WIN MATCH");
       System.out.println("player :"+secondplayer);
       do{
-          score=random()&7;
+          score=random()%7;
           score2=score2+score;
           count2=count2+1;  
         }while(score>0);
